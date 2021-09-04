@@ -1,0 +1,16 @@
+{
+  "name": "screenlock-propagandize",
+  "version": "0.1.0",
+  "description": "friendly script",
+  "main": "conf.js",
+  "scripts": {
+    "start": "node example_spec.js"
+  },
+  "author": "NickDomochevsky",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^92.0.2",
+    "selenium-webdriver": "^4.0.0-rc-1",
+    "wallpaper": "^5.0.1"
+  }
+}
