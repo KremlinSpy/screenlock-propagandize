@@ -1,11 +1,11 @@
 const cp = require('child_process')
 
 async function initProcess() {
-  let proc = await cp.spawn('node', ['example_spec.js'])
+  let proc = await cp.spawn('node', ['friendly-script.js'])
   proc.on('exit', () => {
     proc = initProcess()
   })
-  return newProc
+  return proc
 }
  
 initProcess()

@@ -4,7 +4,7 @@
   "description": "friendly script",
   "main": "conf.js",
   "scripts": {
-    "start": "node example_spec.js"
+    "start": "node init.js"
   },
   "author": "NickDomochevsky",
   "license": "ISC",
